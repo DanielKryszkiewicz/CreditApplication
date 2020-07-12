@@ -3,12 +3,12 @@ package creditapp.core;
 import creditapp.client.ConsoleReader;
 
 public class Person {
-    String name;
-    String lastName;
-    String mothersMaidenName;
-    double totalMonthlyIncomeInPln;
-    boolean married;
-    int numOfFamilyDependants;
+    private final String name;
+    private final String lastName;
+    private final String mothersMaidenName;
+    private final double totalMonthlyIncomeInPln;
+    private final boolean married;
+    private final int numOfFamilyDependants;
 
     public Person(String name, String lastName, String mothersMaidenName, double totalMonthlyIncomeInPln, boolean married,int numOfFamilyDependants ){
         this.name = name;
