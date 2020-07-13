@@ -7,5 +7,7 @@ public class PersonScoringCalculator {
         int pointsForIncome = (int)(incomePerFamilyMember / 1000) *100;
         int pointsForMarriage = person.isMarried() ? 100:0;
 
+        return  pointsForIncome+pointsForMarriage;
+
     }
 }
